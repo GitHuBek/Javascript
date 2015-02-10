@@ -1,0 +1,43 @@
+*{
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font:'PT-Sans',Verdana,Tahoma;
+	background: url(http://subtlepatterns.com/patterns/noisy_net.png);
+}
+.center_container{
+	background: rgba(0,0,0,.2);
+	width:40%;
+	height:300px;
+	margin:100px auto;	
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 1px rgba(255,255,255,0.6);
+	-o-box-shadow: 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow: 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow: 0px 0px 1px rgba(255,255,255,0.6);
+	text-align:center;
+	max-height:400px;
+}
+.header_text{
+	text-align:center;
+	color:#fff;
+	opacity:1;
+
+}
+.pass{
+	display:block;
+	margin:auto;
+	width:80%;
+}
+.pass:hover{
+	-moz-box-shadow: 0 0 2px #fff;
+	-o-box-shadow: 0 0 2px #fff;
+	-webkit-box-shadow: 0 0 2px #fff;
+	box-shadow: 0 0 2px #fff;
+}
